@@ -1,0 +1,32 @@
+{
+  "name": "vusd_test_token",
+  "version": "1.0.0",
+  "description": "VUSD Test Token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test-server": "ganache-cli",
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vegaprotocol/VUSD_Test_Token.git"
+  },
+  "keywords": [
+    "vega",
+    "vusd",
+    "erc20"
+  ],
+  "author": "Danny <danny@vega.xyz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vegaprotocol/VUSD_Test_Token/issues"
+  },
+  "homepage": "https://github.com/vegaprotocol/VUSD_Test_Token#readme",
+  "devDependencies": {
+    "ganache-cli": "^6.9.1",
+    "truffle": "^5.1.27"
+  }
+}

@@ -11,7 +11,6 @@ This README will be updated with details of how to deposit your [minted VUSD](#t
 * **Etherscan token info:** https://ropsten.etherscan.io/token/0x955C6789A7fbee203B4bE0F01428E769308813f2
 * **Etherscan pending contract tx:** https://ropsten.etherscan.io/address/0x955C6789A7fbee203B4bE0F01428E769308813f2
 
-
 ### To get tokens
 * Call `faucet()` function to mint and receive 1000 VUSD
 
@@ -31,6 +30,18 @@ This README will be updated with details of how to deposit your [minted VUSD](#t
 * From dropdown called "Select an item" select `faucet`
 * Click "write"
 * Click "confirm" on Metamask Popup
+
+## Run the tests
+To run the tests, first install the dependencies and start the ganache service:
+```bash
+npm install
+npm test-server
+```
+
+When ganache has started up, run the test suite:
+```bash
+npm test
+```
 
 # Links
 * [Open Zeppelin](https://openzeppelin.com/contracts/)
