@@ -1,3 +1,6 @@
+> ↪ This useful contents of this repository are now in: [vegaprotocol/MultisigControl](https://github.com/vegaprotocol/MultisigControl)
+
+
 # VUSD_Test_Token
 This is a simple ERC20 token that simulates a stable coin in Vega testnet. [Vega](https://vega.xyz) has deployed this token to Ethereum's Ropsten testnet to demonstrate the Ethereum ERC20 token bridge functionality. VUSD will be whitelisted as one of potentially many settlement assets that can be deposited in to the Vega testnet.
 
